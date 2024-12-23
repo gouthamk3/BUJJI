@@ -13,7 +13,7 @@ from dotenv import dotenv_values
 import os
 
 # Initialize API key
-OPENAI_API_KEY=dotenv_values(".env")
+OPENAI_API_KEY = dotenv_values(".env").get("OPENAI_API_KEY")
 
 st.set_page_config(page_title="KONU")
 
