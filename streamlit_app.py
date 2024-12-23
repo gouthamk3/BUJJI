@@ -16,7 +16,7 @@ OPENAI_API_KEY = "sk-proj-wqKGOFLk-qHIIR7DHs9kU3JM-zOOmfIaTBACSM0ESJNdDhJllO73V1
 st.set_page_config(page_title="KONU")
 
 # Encode the image
-with open("/workspaces/BUJJI/Konu logo.png", "rb") as img_file:
+with open("Konu logo.png", "rb") as img_file:
     encoded_img = base64.b64encode(img_file.read()).decode()
 
 # Add image in markdown
