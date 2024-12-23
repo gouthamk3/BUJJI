@@ -1,4 +1,21 @@
 .streamlit/secrets.toml
+# Ignore environment variables
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore logs
+*.log
+
+# Ignore local virtual environments
+venv/
+env/
+
+# Ignore IDE or editor files (e.g., VSCode, PyCharm)
+.idea/
+.vscode/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
