@@ -9,12 +9,11 @@ from langchain.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
 import base64
-from dotenv import load_dotenv
+from dotenv import dotenv_values
 import os
 
 # Initialize API key
-load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY=dotenv_values(".env")
 
 st.set_page_config(page_title="KONU")
 
