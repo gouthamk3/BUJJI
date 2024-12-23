@@ -12,7 +12,7 @@ import base64
 from dotenv import dotenv_values
 import os
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API")
 
 st.set_page_config(page_title="KONU")
 
