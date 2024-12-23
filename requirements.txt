@@ -6,3 +6,5 @@ pypdf
 langchain-community
 tiktoken
 langchain-openai
+os
+python-dotenv
